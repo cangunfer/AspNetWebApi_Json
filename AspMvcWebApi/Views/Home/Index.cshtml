@@ -1,0 +1,14 @@
+﻿@model IList<AspMvcWebApi.Models.User>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+@foreach (var item in Model)
+{
+    <h2>@item.Name</h2>
+}
+
+    
